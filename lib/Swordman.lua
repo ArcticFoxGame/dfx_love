@@ -41,7 +41,7 @@ function Swordman:ctor()
 	self.action = "stand"	--状态
 	self.attacking = false
 	self.attacked = false
-  self.hitrec = 0   --硬直恢复时间
+  	self.hitrec = 0   --硬直恢复时间
 	self.skilling = false
 	self.jumping = false
 	self.jumpingtime = 0 	--处于跳跃的时间
